@@ -1,8 +1,10 @@
 <mat-grid-list cols="2" rowHeight="1:1">
   <mat-grid-tile class="left"></mat-grid-tile>
   <mat-grid-tile>
-      <img src="../../assets/logo.png" class="logo">
+        <div style="position:absolute;top:30px;left: calc(50% - 70px);margin-bottom:20px">
+            <img src="../../assets/logo.png" class="logo"></div>
     <mat-tab-group>
+            
           <!--Login Form-->>
           <mat-tab label="Login"> 
               <div class="example-container">
@@ -13,10 +15,10 @@
                   <mat-form-field>
                       <input matInput type="password" placeholder="Password">
                   </mat-form-field>
-                  <button mat-raised-button color="primary">Submit</button>
+                  <button routerLink="/home" mat-raised-button color="primary">Login</button>
                 
-                <h3> New to Octave? Please Sign Up!</h3>
-            <a routerLink="/forgot" style="text-align: center">Fogot Password?</a>
+                <h3> New to Octave? Register with Us Now !</h3>
+            <a routerLink="/forgot" style="text-align: center;color: rgb(82, 10, 82)">Fogot Password?</a>
           </div>
     
           </mat-tab>

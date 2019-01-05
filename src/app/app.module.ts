@@ -5,7 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginRegisterComponent } from './login-register/login-register.component';
-
+import {VgCoreModule} from 'videogular2/core';
+import {VgControlsModule} from 'videogular2/controls';
+import {VgOverlayPlayModule} from 'videogular2/overlay-play';
+import {VgBufferingModule} from 'videogular2/buffering';
 
 import { FormsModule } from '@angular/forms';
 import {DragDropModule} from '@angular/cdk/drag-drop';
@@ -51,17 +54,20 @@ import {
 } from '@angular/material';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
-import { MarketComponent } from './market/market.component'
+import { MarketComponent } from './market/market.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginRegisterComponent,
     UserHomeComponent,
     UserProfileComponent,
-    MarketComponent
+    MarketComponent,
   ],
   imports: [
-    
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule,
     FormsModule,
     BrowserModule,
     AppRoutingModule,

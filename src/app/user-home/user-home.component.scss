@@ -12,7 +12,9 @@
   button.nav:active{
     background:rgb(86, 12, 116);
   }
-  mat-grid-tile.top{
-    background:black;
+  mat-grid-list{
+    
+    top:0px !important;
   }
-  
+  mat-grid-tile.top{
+    background:black;}
