@@ -1,0 +1,33 @@
+.logo{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:7px;
+    left:10px;
+    padding-right:40px 
+  }
+  button.nav:hover{
+    background:rgb(86, 12, 116);
+  }
+  button.nav:active{
+    background:rgb(86, 12, 116);
+  }
+  mat-grid-tile.top{
+    
+    background:url("../../assets/user1.jpg") no-repeat center center ;
+    background-size:cover;
+  
+  }
+  mat-card{
+    height:300px;
+    width:300px;
+    background: black;
+   }
+   .user{
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:-70px;
+    left:90px;
+    
+  }

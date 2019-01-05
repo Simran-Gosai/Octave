@@ -1,0 +1,51 @@
+<mat-grid-list cols="1"  rowHeight="800px">
+    <mat-grid-tile class="top"  >
+<!--navigation bar-->
+<mat-toolbar style="position:absolute;top:0px" color="primary">
+          <mat-toolbar-row>
+              <div style="margin-right:50px"><img src="../../assets/logo.png" class="logo"></div>
+              <mat-icon>home</mat-icon>
+              <button routerLink="/home" class="nav" style="margin-right:20px" mat-flat-button color="primary">Home</button>
+              <mat-icon>library_music</mat-icon>
+              <button routerLink="/market" class="nav" style="margin-right:20px" mat-flat-button color="primary">Market</button>
+              <mat-icon>account_circle</mat-icon>
+              <button routerLink="/profile" class="nav" mat-flat-button color="primary">Profile</button>
+              <span style="flex: 1 1 auto;"></span>
+              <mat-icon>logout</mat-icon>
+              <button routerLink="/login" class="nav"  mat-flat-button color="primary">Logout</button>
+              </mat-toolbar-row>
+    </mat-toolbar>
+    
+        
+    <mat-card >
+    <img src="../../assets/user.jpg" class="user">
+
+    </mat-card>
+    <mat-card style="background:rgba(255,255,255,0.75);position:absolute;left:20px;top:170px"> 
+            <mat-list >
+                    <mat-list-item>Item 1 </mat-list-item>
+                    <mat-divider></mat-divider>
+                    <mat-list-item>Item 2</mat-list-item>
+                    <mat-divider></mat-divider>
+                    <mat-list-item>Item 3</mat-list-item>
+                  </mat-list>
+     </mat-card>
+     <mat-card style="background:rgba(255,255,255,0.75);position:absolute;right:20px;top:170px"> 
+            <mat-list >
+                    <mat-list-item>Item 1</mat-list-item>
+                    <mat-divider></mat-divider>
+                    <mat-list-item>Item 2</mat-list-item>
+                    <mat-divider></mat-divider>
+                    <mat-list-item>Item 3</mat-list-item>
+                  </mat-list>
+     </mat-card>
+    
+    
+    
+    
+    
+    
+    
+    </mat-grid-tile>
+    
+    </mat-grid-list>

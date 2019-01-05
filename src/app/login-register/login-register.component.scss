@@ -1,0 +1,21 @@
+mat-grid-tile.left{
+    background:url("../../assets/wallpaper.jpg") no-repeat center center ;
+    background-size:cover;
+  
+  }
+  .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  .logo{
+    width:150px;
+    height:100px;
+    position:absolute;
+    top:30px;
+    left: calc(50% - 70px);
+    
+  }
